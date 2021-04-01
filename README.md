@@ -12,4 +12,8 @@ In our problem, we need to select the best possible combination of bags to be fi
   4) Mutation
   5) Fitness function
 These steps for a given set of iterations will result in solutions optimal to solve the issue.
- 
+
+ ## Multicomponent optimization problem
+
+The main focus is to solve a Travelling thief problem which is the combination of the travelling salesman and knapsack problem. The objective of the problem is to find the optimized routes and profits by taking into account the constraints of knapsack weights and the renting ratio. The first step is to find the best possible paths after multiple generations using a genetic algorithm for the given data. Next is to use the best path obtained to pick the best combinations of items using the genetic algorithm.
+   
